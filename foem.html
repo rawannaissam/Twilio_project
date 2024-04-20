@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Form</title>
+</head>
+<body>
+    <h1>Message Form</h1>
+    <form id="messageForm" method="GET" action="MakeCallServlet">
+        <label for="user">User:</label><br>
+        <input type="text" id="user" name="user"><br><br>
+        
+        <label for="to">To:</label><br>
+        <input type="text" id="to" name="to"><br><br>
+        
+        <label for="from">From:</label><br>
+        <input type="text" id="from" name="from"><br><br>
+        
+        <label for="msg">Message:</label><br>
+        <textarea id="msg" name="msg" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
